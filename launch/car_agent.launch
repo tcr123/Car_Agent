@@ -1,0 +1,6 @@
+<launch>
+  <node name="car_recognition" pkg="car_assistant" type="car_recognition.py"/>
+  <node name="google_tts" pkg="car_assistant" type="google_tts.py"/>
+  <node name="speech_processor" pkg="car_cv" type="speech_processor.py"/>
+  <node name="google_sr" pkg="car_assistant" type="google_sr.py"/>
+</launch>
